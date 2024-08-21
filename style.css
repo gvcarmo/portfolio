@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    max-width: 1440px;
+    min-width: 375px;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+ul li {
+    text-decoration: none;
+    display: inline-block;
+    background-color: hsl(0, 0%, 15%);
+    border: 1px solid #757474;
+    width: 80px;
+    padding: 7px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 25%);
+}
+
+.menu {
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.conteudo {
+    background-color: hsl(0, 0%, 25%);
+    width: 300px;
+    min-height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #757474;
+    margin-top: 47px;
+}
+
+main {
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+.link-solto {
+    color: white;
+}
+
+main a:hover {
+    color: hsl(75, 94%, 57%);
+}
+
+div {
+    border-top: 1px solid #757474;
+    border-bottom: 1px solid #757474;
+}
+
+.li-fora-do-menu {
+    width: 200px;
+    margin: 5px;
+}
+
+.icons {
+    width: 25px;
+    border: 1px solid #757474;
+}
