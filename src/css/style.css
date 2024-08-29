@@ -118,7 +118,7 @@ body {
     margin: 50px;
     display: grid;
     grid-template-areas: "resume-text avatar";
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
     color: white;
     min-height: 70vh;
@@ -143,7 +143,7 @@ body {
     "projeto-1 projeto-1-img"
     "projeto-2 projeto-2-img";
     grid-template-columns: 2, 1fr;
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: 1fr;
 }
 
 .works .projeto {
