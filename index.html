@@ -1,34 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Portfólio - Giovanni Vittorazze do Carmo</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="stylesheet" href="src/css/all.min.css">
+    <link rel="stylesheet" href="src/css/fontawesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-            <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href="projetos.html"><li>Projetos</li></a>
-                <a href="sobre.html"><li>Sobre</li></a>
+    <div class="download-cv">
+        <a href="" class="download-cv">
+            <i class="fa fa-download">cv</i>
+        </a>
+    </div>
+    <header class="header">
+        <a href="#" class="email">
+            <i class="fa fa-envelope">
+                <p>gvittorazze@icloud.com</p>
+            </i>
+        </a>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#resume"><i class="fa fa-user"></i>Resume</a></li>
+                <li><a href="#works"><i class="fa fa-file"></i>Works</a></li>
+                <li><a href="#links"><i class="fa fa-link"></i>Contact</a></li>
             </ul>
         </nav>
     </header>
+    <section class="welcome">
+        <h1>Welcome, <span>I am</span></h1>
+        <p>Giovanni Vittorazze do Carmo </p>
+        <p class="profission">Frontend Developer <span class="type">|</span></p>
+    </section>
+    <section class="resume" id="resume">
+        <div class="resume-text">
+            <h2>Resume</h2>
+            <p>Sou um profissional versátil estou entrando agora no ramo de desenvolvedor, já estou familiarizado com
+                CSS e HTML, e começando a aprender Javascript.</p>
+            <p>Além das minhas habilidades técnicas, destaco minha aptidão em resolver conflitos, tenho facilidade em
+                comunicação, e em trabalhos de equipe.</p>
+        </div>
+        <div class="avatar">
+            <img src="https://placedog.net/300/300" alt="Avatar" />
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="projeto">
+            <h1>Projeto - meu portfólio</h1>
+            <p>Este portfólio, foi feito para mostrar um pouco do meu trabalho</p>
+            <a href="https://github.com/gvcarmo/landing-page-com-grid">Link do Repositório no Github</a>
+            <a href="https://gvcarmo.github.io/landing-page-com-grid/">Link do Pages</a>
+        </div>
+        <div class="projeto-img">
+            <img src="src/images/projeto-portfolio.png">
+        </div>
+        <div class="projeto">
+            <h1>Projeto landing page com grid</h1>
+            <p>Este é um projeto do curso, onde aprendi diversas coisas novas, como desenvolver um menu hamburger, e
+                fazer animações simples</p>
+            <a href="https://github.com/gvcarmo/landing-page-com-grid">Link do Repositório no Github</a>
+            <a href="https://gvcarmo.github.io/landing-page-com-grid/">Link do Pages</a>
+        </div>
+        <div class="projeto-img">
+            <img src="src/images/projeto-landing-page.png">
+        </div>
 
-    <main>
-        <section class="conteudo">
-            <h1>Home</h1>
-            <p>Este é meu portfólio, com todos os meus trabalhos, projetos que fiz para desenvolver minhas habilidades como programador.</p>            
-        </section>
-    </main>
+    </section>
 
-    <footer>
-        <adress>
-            
-        </adress>
+    <footer class="links" id="links">
+        <h4>Giovanni Vittorazze do Carmo</h4>
+
+        <nav>
+            <ul>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#links">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://wa.me/+5534998641993" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gvcarmo/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/gvcarmo/" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
     </footer>
-    
 </body>
+
 </html>
